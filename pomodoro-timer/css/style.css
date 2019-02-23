@@ -1,0 +1,46 @@
+body { 
+  background: url("http://i482.photobucket.com/albums/rr190/manas-sharma/1932201_zpsucujuxts.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:100%;
+}
+header{
+  font-size:80px;
+  font-family: 'Chewy', cursive;
+}
+.timerDisplay{
+  font-family: 'Montserrat', sans-serif;
+  font-size:200px;
+}
+.label{
+  font-size:15px;
+  font-family: 'Ubuntu', sans-serif;
+}
+output{
+  font-size:20px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.timerState{
+  font-size:25px;
+  font-family: 'Holtwood One SC', serif;
+}
+
+/*Slider Apperance*/
+input[type='range'] {
+    -webkit-appearance: none;
+    border-radius: 8px;
+    height: 7px;
+    border: 1px solid #bdc3c7;
+    background-color: #3CAEFF; 
+}
+input[type='range']::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	background-color: #ecf0f1;
+	border: 1px solid #bdc3c7;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	cursor: pointer;
+}
