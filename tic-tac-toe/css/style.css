@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+canvas {
+  position:fixed;
+  display:block;
+  z-index:-1;
+}
+header{
+  color:#C1E1A6;
+  font-family: 'Orbitron', sans-serif;
+}
+.board{
+  margin:0 auto;
+  width:450px;
+}
+.col-xs-4{
+  width:125px;
+  height:125px;
+  background-color:#006400;
+  color:#000;
+  margin:5px;
+  font-size:90px;
+  padding:auto;
+  font-family: 'Share Tech', sans-serif;
+}
+.col-xs-4:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+.modal-dialog{
+  opacity:0.8;
+  width:250px;
+  position:relative;
+}
+.modal-content{
+  background:#006400;
+  color:#fff;
+  font-family: 'Titillium Web', sans-serif;
+}
+.credits{
+  margin-top:20px;
+  color:#C1E1A6;
+  font-family: 'Aldrich', sans-serif;
+}
+.credits a{
+  color:#CBE32D;
+}
